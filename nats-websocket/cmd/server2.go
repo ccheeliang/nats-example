@@ -23,7 +23,7 @@ This application is a tool to generate the needed files
 to quickly create a Cobra application.`,
 	Run: func(cmd *cobra.Command, args []string) {
 		fmt.Println("server2 called")
-		sv, err := server.StartServer("ws://localhost:9090")
+		sv, err := server.StartServer("nats://localhost:4222")
 		if err != nil {
 			log.Fatal(err)
 		}
