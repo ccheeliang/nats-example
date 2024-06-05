@@ -1,0 +1,14 @@
+version: "3.5"
+services:
+  nats-server:
+    image: nats:2.10-alpine3.19
+    ports: 
+      - "8222:8222"
+      - "4222:4222"
+    command: "--auth secret"
+    # networks: ["nats"]
+
+
+# networks:
+#   nats:
+#     name: nats

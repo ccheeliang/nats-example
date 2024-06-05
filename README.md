@@ -1,2 +1,3 @@
-# nats-websocket
-To showcase the capability of using NATS in delivering messages to all connected apps/clients
+# nats-example
+
+To showcase the capability of using NATS in different kind of scenarios/use cases.
